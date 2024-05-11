@@ -8,20 +8,20 @@ books_list.append("Python Programming")
 authors_set.add("John Smith")
 books_dict["Python Programming"] = "John Smith"
 
-books_list.append("Data Structure and Alogrithm")
+books_list.append("Data Structure And Alogrithm")
 authors_set.add("John Doe")
-books_dict["Data Structre and Alogrithm"] = "John Deo"
+books_dict["Data Structre And Alogrithm"] = "John Deo"
 
-books_list.append("Machine learnig basic")
+books_list.append("Machine Learnig Basic")
 authors_set.add("Alice Johnson")
 books_dict["Machine learning basic"] = "Alice Johnson"
 
-books_list.append("History of Bhutan")
+books_list.append("History Of Bhutan")
 authors_set.add("Jigme Namgyel")
-books_dict["History of Bhutan"] = "Jigme Namgyel"
+books_dict["History Of Bhutan"] = "Jigme Namgyel"
 
 #User input to search book
-search_title = input("Hello la! Enter the tile of the book you wanted:")
+search_title = input("Hello la! Enter the tile of the book you wanted:").capitalize
 if search_title in books_list:
     print(f"Book has been founded! Author is {books_dict[search_title]}")
 
@@ -34,7 +34,7 @@ for book in books_list:
     print(book)
 
 # to remove book
-remove_tilte= input("Enter the name of book you wanted to remove:")
+remove_tilte= input("Enter the name of book you wanted to remove:").capitalize
 if remove_tilte in books_list:
     remove_author = books_dict[remove_tilte]
     books_list.remove(remove_tilte)
