@@ -10,7 +10,7 @@ missing_Value= input("Enter your missing option number: ")
 
 if missing_Value == "1":
     f=float(input("Enter force(f): "))
-    a=float(input("Enter acceleration(a): "))
+    a=float (input("Enter acceleration(a): "))
     m=f/a
     print(f"mass= {m}")
 
