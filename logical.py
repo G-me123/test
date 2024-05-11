@@ -13,4 +13,4 @@ print(y <3 or y >10 )
 
 z=10
 print(not(z<1 and z>5))
-print(not(z>1 and z % 2 == 2 ))
+print(not(z>1 and z<20))
