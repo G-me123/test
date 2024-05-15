@@ -23,11 +23,15 @@ def main():
                 print(f"Patient {name} has met the doctor and is now removed from the queue.")
         elif choice == '3':
             if patient_queue.empty():
-                print("No patients in queue.")
+                print("No patients in queue.") 
             else:
                 print("Patients in queue:")
-                for index, name in enumerate(list(patient_queue.queue)):
-                    print(f"{index + 1}. {name}")
+                for name in list(patient_queue.queue):
+                    print(name)
+                
+                #print("Patients in queue:")
+                #for index, name in enumerate(list(patient_queue.queue)):
+                    #print(f"{index + 1}. {name}")
         elif choice == '4':
             print("Exiting program.")
             break
