@@ -52,7 +52,7 @@ class Student(Person):
 
 # Example usage:
 teacher1 = Teacher("Ms. Tashi palden", 21, "10408271863", "Csf", 60000, "IT department", "Lecturer")
-student1 = Student("Jigme ", 20, "12005004778", "12345", "Csf coding", 6, 45)
+student1 = Student("Jigme ", 20, "12005004778", "02230064", "Csf coding", 1, 45)
 
 teacher1.teach()
 student1.study()
